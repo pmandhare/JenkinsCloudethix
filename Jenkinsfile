@@ -21,7 +21,7 @@ pipeline{
             } 
            
         }
-        stage('test'){
+        stage('Deploy'){
             steps{
                sh 'echo "Deploying on k8s cluster"'  
             } 
