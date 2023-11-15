@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-               sh 'echo "Build stage executing shell script my_fst_jenkins.sh '
+               sh 'echo "Build stage executing shell script my_fst_jenkins.sh" '
                sh ' bash my_fst_jenkins.sh ${param.NAME} ${param.LASTNAME} ${param.SHOW}'  
             } 
            
